@@ -1,4 +1,4 @@
-def ft_harvest_total():
+def ft_harvest_total() -> None :
     harvest = 0
     for i in range(1, 3):
         harvest += int(input(f"Day {i} harvest: "))
